@@ -1,17 +1,11 @@
 #! /bin/bash
 
-# This script takes in a repo name
-# clones the repo
-# moves the readme.md file to the outside directory
-# commits the changes and pushes to github
-# moves the readme.md back to the repo renamed as README.md
-# commits the changes and pushes to github
-# deletes the old readme.md file
+# This script takes in a repo name, clones the repo, moves the "readme.md" file to the outside directory, commits the changes and pushes to Github.  It then moves the "readme.md" back to the repo, renamed as "README.md", commits the changes and pushes to Github. It then deletes the old readme.md file
 
 # TO RUN THE SCRIPT
-# . readme-to-README.sh YOUR-GITHUB-USER-NAME YOUR-REPO-NAME
-# you must run this script with . not bash
-# that sets the path context so you can change directories
+# . readme-to-README.sh GITHUB-USER-NAME REPO-NAME
+# you must run this script with "." not "bash" that sets the path context
+
 # for example
 # . readme-to-README.sh smerth bash-scripts
 
